@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-position: fixed;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#animal-block {
+    background: red;
+    min-height: 100vh;
+}
+
+#animal-block h1 {
+    text-align: center;
+    color: white;
+    padding: 15px 0;
+}
+
+#animal-block img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+}
+
+#class-box {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#class-box .animal-card {
+    width: 24%;
+    background: #ffff;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.animal-card .animal-info {
+    margin: 10px;
+}
+
+.animal-info .animal-name {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
